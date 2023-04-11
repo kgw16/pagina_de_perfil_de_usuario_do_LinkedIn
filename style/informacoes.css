@@ -1,0 +1,115 @@
+.informacoes{
+    display: flex;
+    flex-direction: column;
+}
+
+.informacoes img{
+    width: 160px;
+    
+}
+
+.informacoes__foto{
+    margin-top: -110px;
+    margin-left: 20px;
+}
+
+.imagem__da__capa img{
+    width: 780px;
+    height: 230px;
+}
+
+.informacoes__pessoais{
+    display: flex;
+}
+
+.informacoes__pessoais--dados{
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+.informacoes__pessoais--dados h1{
+    font-size: 24px;
+    color: var(--texto-primario);
+    font-weight: 600;
+    margin: 10px 0;
+}
+
+.informacoes__pessoais--dados h2{
+    font-size: 16px;
+    color: var(--texto-primario);
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.informacoes__pessoais--dados p{
+    font-size: 14px;
+    color: var(--texto-secundario);
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+
+.informacoes__pessoais--dados p .link{
+    font-weight: 500;
+}
+
+.informacoes__pessoais--dados p a{
+    color: var(--primario);
+    font-weight: 700;
+}
+
+.informacoes__pessoais--dados--links{
+    display: flex;
+    text-align: center;
+}
+
+.informacoes__pessoais--dados .botao1{
+    color: var(--texto-escuro);
+    background-color: var(--primario);
+    font-weight: 500;
+    font-size: 14px;
+    border-radius: 20px;
+    display: inline-block;
+    width: 128px;
+    margin-right: 20px;
+    padding: 10px 0;
+    text-decoration: none;
+}
+
+.informacoes__pessoais--dados .botao2{
+    color: var(--primario);
+    background-color: var(--fundo-card);
+    border: 1px solid var(--primario);
+    border-radius: 20px;
+    width: 128px;
+    font-size: 14px;
+    font-weight: 500;
+    align-self: center;
+    padding: 10px 0;
+    text-decoration: none;
+}
+
+.informacoes__icones{
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    justify-content: flex-start;
+    margin: 0 50px;
+}
+
+.icones__informacoes{
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.icones__informacoes img{
+    width: 32px;
+    height: 32px;
+}
+
+.icones__informacoes h3{
+    font-weight: 600;
+    font-size: 16px;
+    color: var(--texto-primario);
+    margin-left: 10px;
+}

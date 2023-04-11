@@ -1,0 +1,65 @@
+.pessoas__viram{
+    position: absolute;
+    width: 320px;
+    left: 1000px;
+    top: 90px;
+}
+
+.pessoas__viram--titulo{
+    font-size: 16px;
+    font-weight: 700;
+    color: var(--texto-primario);
+    margin: 15px 0 15px 15px ;
+}
+
+.pessoas__viram--lista{
+    list-style: none;
+    padding: 0;
+    margin-left: 15px;
+    
+}
+
+.pessoas__viram--container{
+    display: grid;
+    margin-bottom: 15px;
+}
+
+.pessoas__viram--imagem{
+    width: 48px;
+    grid-column: 1/2;
+    grid-row: 1/3;
+    margin-right: 5px;
+}
+
+
+.pessoas__viram--nome{
+    font-size: 14px;
+    font-weight: 700;
+    color: var(--texto-primario);
+    grid-column: 2/3;
+    grid-row: 1/2;
+    margin: 0;
+}
+
+.pessoas__viram--paragrafo{
+    font-size: 12px;
+    font-weight: 400;
+    color: var(--texto-secundario);
+    grid-column: 2/3;
+    grid-row: 2/3;
+    margin: 0;
+}
+
+.pessoas__viram--botao{
+    background-color: var(--fundo-card);
+    font-size: 14px;
+    font-weight: 700;
+    grid-column: 2/3;
+    grid-row: 3/4;
+    color: var(--texto-primario);
+    border: 1px solid rgba(255, 255, 255, 0.9);
+    border-radius: 16px;
+    width: 154px;
+    margin-top: 10px;
+    padding: 5px;
+}

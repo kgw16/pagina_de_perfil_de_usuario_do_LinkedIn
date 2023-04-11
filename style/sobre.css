@@ -1,0 +1,21 @@
+
+.sobre__titulo{
+    font-size: 20px;
+    font-weight: 600;
+    color: var(--texto-primario);
+    margin-left: 20px;
+    margin-bottom: 10px;
+    padding-top: 15px;
+}
+
+.sobre__texto{
+    font-size: 14px;
+    font-weight: 400;
+    color: var(--texto-primario);
+    margin-left: 20px;
+    padding-bottom: 15px;
+    padding-right: 20px;
+    text-align: justify;
+}
+
+

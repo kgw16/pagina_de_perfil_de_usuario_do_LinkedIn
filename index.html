@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="/style/reset.css">
+        <link rel="stylesheet" href="/style/style.css">
+        <title>linkedin perfil</title>
+        
+    </head>
+    <body>
+        <nav class="navbar">
+            <div class="navbar__seach">
+                <img src="./img/linkedin.png" alt="#">
+                <input type="text" placeholder="Pesquisar"/>
+            </div>
+            <ul class="navbar__icones">
+                <li class="navbar__icones--item">
+                    <img src="./img/inicio.png" alt="#">
+                    <h3 class="navbar__icones--texto">Inicio</h3>
+                </li>
+                <li class="navbar__icones--item">
+                    <img src="./img/minha_rede.png" alt="#">
+                    <h3 class="navbar__icones--texto">Minha Rede</h3>
+                </li>
+                <li class="navbar__icones--item">
+                    <img src="./img/vagas.png" alt="#">
+                    <h3 class="navbar__icones--texto">Vagas</h3>
+                </li>
+                <li class="navbar__icones--item">
+                    <img src="./img/mensagem.png" alt="#">
+                    <h3 class="navbar__icones--texto">Menssagem</h3>
+                </li>
+                <li class="navbar__icones--item">
+                    <img src="./img/notificacoes.png" alt="#">
+                    <h3 class="navbar__icones--texto">Notificações</h3>
+                </li>
+                <li class="navbar__icones--item navbar__icones--solucoes">
+                    <img src="./img/solucoes.png" alt="#">
+                    <h3 class="navbar__icones--texto ">Soluções</h3>
+                </li>
+                
+            </ul>
+        </nav>
+        <section class="informacoes card">
+            <div class="imagem__da__capa">
+                <img src="./img/Imagem de capa.svg" alt="#">
+            </div>
+            <img class="informacoes__foto" src="./img/foto-perfil.svg" alt="#">
+            <div class="informacoes__pessoais">
+                <div class="informacoes__pessoais--dados">
+                    <h1>Nome Sobrenome</h1>
+                    <h2>Desenvolvedora | HTML | CSS | Typescript | Node</h2>
+                    <p>Fala sobre #javascript, #frontend, #reactjs, e #backend</p>
+                    <p>Cidade, estado e país · <a>informações de contato</a></p>
+                    <p><a class="link" href="#">??? seguidores  ·  ??? conexões</a></p>
+                    <div class="informacoes__pessoais--dados--links">
+                        <a class="botao1" href="#">Mensagem</a>
+                        <a class="botao2" href="#">Mais</a>
+                    </div>
+                </div>
+                <div class="informacoes__icones">
+                    <div class="informacoes__icones--empresas icones__informacoes">
+                        <img src="./img/Rectangle 5.svg" alt="#">
+                        <h3 class="informacoes__icones--empresas--titulo">Empresa</h3>
+                    </div>
+                    <div class="informacoes__icones--ensino icones__informacoes">
+                        <img src="./img/Rectangle 5(1).svg" alt="#">
+                        <h3 class="informacoes__icones--ensino--titulo">Instituição de ensino</h3>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="card destaques">
+            <h1 class="destaques__titulos">Destaques</h1>
+            <ul class="publicacao__lista">
+                <li class="publicacao__item">
+                    <h2 class="publicacao__titulo">Publicação</h2>
+                    <h3 class="publicacao__legenda">Legenda da primeira publicaçã...</h3>
+                    <img src="./img/publicacao-1.jpg" alt="Imagem da pulicação" class="publicacao__imagem">
+                    <div class="publicacao__item--status">
+                        <h4 class="publicacao__visualizacoes">124</h4>
+                        <h4 class="publicacao__comentarios">5 Comentarios</h4>
+                    </div>
+                </li>
+                <li class="publicacao__item">
+                    <h2 class="publicacao__titulo">Publicação</h2>
+                    <h3 class="publicacao__legenda">Legenda da segunda publicaçã...</h3>
+                    <img src="./img/publicacao-2.jpg" alt="Imagem da pulicação" class="publicacao__imagem">
+                    <div class="publicacao__item--status">
+                        <h4 class="publicacao__visualizacoes">124</h4>
+                        <h4 class="publicacao__comentarios">5 Comentarios</h4>
+                    </div>
+                </li>
+                <li class="publicacao__item">
+                    <h2 class="publicacao__titulo">Publicação</h2>
+                    <h3 class="publicacao__legenda">Legenda da terceira publicaçã...</h3>
+                    <img src="./img/publicacao-3.jpg" alt="Imagem da pulicação" class="publicacao__imagem">
+                    <div class="publicacao__item--status">
+                        <h4 class="publicacao__visualizacoes">124</h4>
+                        <h4 class="publicacao__comentarios">5 Comentarios</h4>
+                    </div>
+                </li>
+            </ul>
+        </section>
+        <section class="card atividades">
+            <h1 class="atividades__titulo">Atividades</h1>
+            <h3 class="atividades__seguidores">??? seguidores</h3>
+            <ul class="atividades__lista atividades__lista--1">
+                <li class="atividades__item">
+                    <h2 class="atividade__nome">Nome Sobrenome publicou isso · 1 sem</h2>
+                    <div class="atividades__item--container">
+                        <img src="./img/Rectangle 9.png" alt="#">
+                        <p class="atividades__item--texto">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu...</p>
+                    </div>
+                    <div class="atividades__comentarios">
+                        <h4>124</h4>
+                        <h4>5 comentários</h4>
+                    </div>
+                </li>
+            </ul>
+            <ul class="atividades__lista atividades__lista--2">
+                <li class="atividades__item">
+                    <h2 class="atividade__nome">Nome Sobrenome publicou isso · 1 sem</h2>
+                    <div class="atividades__item--container">
+                        <img src="./img/Rectangle 10.png" alt="#">
+                        <p class="atividades__item--texto">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu...</p>
+                    </div>
+                    <div class="atividades__comentarios">
+                        <h4>124</h4>
+                        <h4>5 comentários</h4>
+                    </div>
+                </li>
+            </ul>
+            <h5>Exibir todas as atividades</h5>
+        </section>
+        <section class="sobre card">
+            <h1 class="sobre__titulo">Sobre</h1>
+            <p class="sobre__texto">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur</p>
+        </section>
+        <section class="experiencias card">
+            <h1 class="experiencias_titulo">Experiências</h1>
+            <div class="experiencias__inicio">
+                <img class="experiencias__imagem" src="./img/empresa-foto.png" alt="#">
+                <h2 class="experiencias__empresa">Empresa</h2>
+                <h3 class="experiencias__distancias">1 a 7 m</h3>
+            </div>
+            <ul class="experiencias__lista">
+                <li class="cargo">
+                    <h3>Fullstack Developer</h3>
+                    <span class="tipo-emprego">Tempo integral</span>
+                    <span class="duracao">jan de 2022 - o momento • 5 meses</span>
+                    <span class="localizacao">Cidade, estado e país</span>
+                 </li>
+                 <li class="cargo">
+                    <h3>Fullstack Developer (JR)</h3>
+                    <span class="tipo-emprego">Tempo integral</span>
+                    <span class="duracao">jan de 2022 - o momento • 5 meses</span>
+                    <span class="localizacao">Cidade, estado e país</span>
+                 </li>
+                 <li class="cargo">
+                    <h3>Front-end Developer</h3>
+                    <span class="tipo-emprego">Tempo integral</span>
+                    <span class="duracao">jan de 2022 - o momento • 5 meses</span>
+                    <span class="localizacao">Cidade, estado e país</span>
+                 </li>
+            </ul>
+        </section>
+        <section class='formacao card'>
+            <h1 class="formacao__titulo">Formação acadêmica</h1>
+            <div class="formacao__container">
+                <img class="formacao__container--imagem" src="./img/empresa-foto-2.png" alt="">
+                <h2 class="formacao__container--text1">Instituição de ensino</h2>
+                <h2 class="formacao__container--text2">Nome do curso</h2>
+                <h2 class="formacao__container--text3">2015 a 2019</h2>
+            </div>
+        </section>
+        <section class="idiomas card">
+            <h1 class="idiomas__titulo">Idiomas</h1>
+            <ul class="idiomas__lista">
+                <li class="idiomas__lista--item">
+                    <span class="idiomas__item1">Português</span>
+                    <span class="idiomas__item2">Fluente ou nativo</span>
+                </li>
+                <li class="idiomas__lista--item">
+                    <span class="idiomas__item1">Inglês</span>
+                    <span class="idiomas__item2">Intermediário</span>
+                </li>
+            </ul> 
+        </section>
+        <section class="pessoas__viram sugestoes">
+            <h1 class="pessoas__viram--titulo">As pessoas também viram</h1>
+            <ul class="pessoas__viram--lista">
+                <li class="pessoas__viram--container">
+                    <img src="./img/botao - enviar mensagem1.png" alt="#" class="pessoas__viram--imagem">
+                    <h2 class="pessoas__viram--nome">Nome e sobrenome</h2>
+                    <p class="pessoas__viram--paragrafo">Título, cargo e tecnologias. Lorem Ipsum Dolor sit Amet</p>
+                    <button class="pessoas__viram--botao">Enviar mensagem</button>
+                </li>
+                <li class="pessoas__viram--container">
+                    <img src="./img/botao - enviar mensagem(1).png" alt="#" class="pessoas__viram--imagem">
+                    <h2 class="pessoas__viram--nome">Nome e sobrenome</h2>
+                    <p class="pessoas__viram--paragrafo">Título, cargo e tecnologias. Lorem Ipsum Dolor sit Amet</p>
+                    <button class="pessoas__viram--botao">Enviar mensagem</button>
+                </li>
+                <li class="pessoas__viram--container">
+                    <img src="./img/botao - enviar mensagem(2).png" alt="#" class="pessoas__viram--imagem">
+                    <h2 class="pessoas__viram--nome">Nome e sobrenome</h2>
+                    <p class="pessoas__viram--paragrafo">Título, cargo e tecnologias. Lorem Ipsum Dolor sit Amet</p>
+                    <button class="pessoas__viram--botao">Enviar mensagem</button>
+                </li>
+                <li class="pessoas__viram--container">
+                    <img src="./img/botao - enviar mensagem(3).png" alt="#" class="pessoas__viram--imagem">
+                    <h2 class="pessoas__viram--nome">Nome e sobrenome</h2>
+                    <p class="pessoas__viram--paragrafo">Título, cargo e tecnologias. Lorem Ipsum Dolor sit Amet</p>
+                    <button class="pessoas__viram--botao">Enviar mensagem</button>
+                </li>
+                <li class="pessoas__viram--container">
+                    <img src="./img/botao - enviar mensagem.png" alt="#" class="pessoas__viram--imagem">
+                    <h2 class="pessoas__viram--nome">Nome e sobrenome</h2>
+                    <p class="pessoas__viram--paragrafo">Título, cargo e tecnologias. Lorem Ipsum Dolor sit Amet</p>
+                    <button class="pessoas__viram--botao">Enviar mensagem</button>
+                </li>
+            </ul>
+        </section>
+        <section class="pessoas__conheca sugestoes">
+            <h1 class="pessoas__conheca--titulo">As pessoas também viram</h1>
+            <ul class="pessoas__conheca--lista">
+                <li class="pessoas__conheca--container">
+                    <img src="./img/botao-conectar.png" alt="#" class="pessoas__conheca--imagem">
+                    <h2 class="pessoas__conheca--nome">Nome e sobrenome</h2>
+                    <p class="pessoas__conheca--paragrafo">Título, cargo e tecnologias. Lorem Ipsum Dolor sit Amet</p>
+                    <button class="pessoas__conheca--botao">Conectar</button>
+                </li>
+                <li class="pessoas__conheca--container">
+                    <img src="./img/botao - conectar(1).png" alt="#" class="pessoas__conheca--imagem">
+                    <h2 class="pessoas__conheca--nome">Nome e sobrenome</h2>
+                    <p class="pessoas__conheca--paragrafo">Título, cargo e tecnologias. Lorem Ipsum Dolor sit Amet</p>
+                    <button class="pessoas__conheca--botao">Conectar</button>
+                </li>
+                <li class="pessoas__conheca--container">
+                    <img src="./img/botao - conectar(2).png" alt="#" class="pessoas__conheca--imagem">
+                    <h2 class="pessoas__conheca--nome">Nome e sobrenome</h2>
+                    <p class="pessoas__conheca--paragrafo">Título, cargo e tecnologias. Lorem Ipsum Dolor sit Amet</p>
+                    <button class="pessoas__conheca--botao">Conectar</button>
+                </li>
+                <li class="pessoas__conheca--container">
+                    <img src="./img/botao - conectar(3).png" alt="#" class="pessoas__conheca--imagem">
+                    <h2 class="pessoas__conheca--nome">Nome e sobrenome</h2>
+                    <p class="pessoas__conheca--paragrafo">Título, cargo e tecnologias. Lorem Ipsum Dolor sit Amet</p>
+                    <button class="pessoas__conheca--botao">Conectar</button>
+                </li>
+                <li class="pessoas__conheca--container">
+                    <img src="./img/botao - conectar(4).png" alt="#" class="pessoas__conheca--imagem">
+                    <h2 class="pessoas__conheca--nome">Nome e sobrenome</h2>
+                    <p class="pessoas__conheca--paragrafo">Título, cargo e tecnologias. Lorem Ipsum Dolor sit Amet</p>
+                    <button class="pessoas__conheca--botao">Conectar</button>
+                </li>
+            </ul>
+        </section>
+    </body>
+</html>

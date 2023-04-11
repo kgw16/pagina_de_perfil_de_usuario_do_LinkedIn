@@ -1,0 +1,45 @@
+@import url(informacoes.css);
+@import url(destaques.css);
+@import url(sobre.css);
+@import url(atividades.css);
+@import url(navbar.css);
+@import url(experiencias.css);
+@import url(formacao.css);
+@import url(idiomas.css);
+@import url(pessoas__viram.css);
+@import url(pessoas__conheca.css);
+
+:root{
+    --fundo-card:#1B2226;
+    --texto-primario:rgba(255, 255, 255, 0.9);
+    --texto-secundario:rgba(255, 255, 255, 0.6);
+    --primario:#70B5F9;
+    --texto-escuro:#000000;
+    --body-cor:#000000;
+    --font-style: 'Roboto', sans-serif;
+    --input: #38434F;
+}
+
+body{
+    background: var(--body-cor);
+    font-family: var(--font-style);
+    margin: 0;
+}
+
+.card{
+    
+    background-color: var(--fundo-card);
+    border-radius: 16px;
+    width:780px;
+    margin-left: 200px;
+    margin-bottom: 20px;
+}
+
+.sugestoes{ 
+    width: 320px;
+    border-radius: 16px;
+    background-color: var(--fundo-card);
+}
+
+
+

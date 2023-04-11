@@ -1,0 +1,75 @@
+.atividades h5{
+    font-size: 14px;
+    font-weight: 500;
+    color: var(--texto-secundario);
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+.atividades__titulo{
+    font-size: 20px;
+    font-weight: 600;
+    color: var(--texto-primario);
+    margin: 0px 0 5px 20px;
+    padding-top: 20px;
+}
+
+.atividades__seguidores{
+    font-size: 14px;
+    font-weight: 500;
+    color: var(--primario);
+    margin: 5px 0 20px 20px;
+}
+
+.atividades__lista--1{
+    list-style: none;
+    margin-right: 20px;
+    padding-left: 0;
+    margin-left: 40px;
+    border-bottom: 1px solid var(--texto-secundario);
+    padding-bottom: 5px;
+    margin: 0px 20px 5px 40px;
+}
+
+.atividades__lista--2{
+    list-style: none;
+    padding: 0 20px 15px 40px;
+    border-bottom: 1px solid var(--texto-secundario);
+    margin: 10px 0px 10px 0;
+}
+
+.atividade__nome{
+    font-size: 14px;
+    font-weight: 400;
+    color: var(--texto-secundario);
+    margin-bottom: 10px;
+}
+
+.atividades__item--container{
+    display: flex;
+    margin-bottom: 8px;
+}
+
+.atividades__item--container img {
+    width: 64px;
+    height: 64px;
+    margin-right: 10px;
+}
+
+.atividades__item--texto{
+    font-size: 14px;
+    font-weight: 400;
+    color: var(--texto-primario);
+    text-align: justify;
+}
+
+.atividades__comentarios{
+    display: flex;
+    justify-content: space-between;
+}
+
+.atividades__comentarios h4{
+    font-size: 12px;
+    font-weight: 400;
+    color: var(--texto-secundario);
+}

@@ -1,0 +1,50 @@
+.formacao__titulo{
+    font-size: 20px;
+    font-weight: 600;
+    color: var(--texto-primario);
+    margin: 0 0 10px 20px ;
+    padding-top: 20px;
+}
+
+.formacao__container{
+    display: grid;
+    grid-template-areas: 
+        "foto texto1"
+        "foto texto2"
+        "foto texto3";
+    grid-template-columns: 90px auto;
+    padding-bottom: 10px;
+}
+
+.formacao__container h2{
+    margin: 0;
+    line-height: 16px;
+}
+
+.formacao__container--imagem{
+    grid-area: foto;
+    width: 48px;
+    margin: 0 20px 20px 20px;
+}
+
+.formacao__container--text1{
+    grid-area: texto1;
+    font-size: 16px;
+    font-weight: 600;
+    color: var(--texto-primario);
+}
+
+.formacao__container--text2{
+    grid-area: texto2;
+    font-size: 14px;
+    font-weight: 400;
+    color: var(--texto-primario);
+}
+
+
+.formacao__container--text3{
+    grid-area: texto3;
+    font-size: 14px;
+    font-weight: 400;
+    color: var(--texto-secundario);
+}
